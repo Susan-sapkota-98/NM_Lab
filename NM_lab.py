@@ -5,7 +5,7 @@ a = float(input("Enter the lower limit of integration: "))
 b = float(input("Enter the upper limit of integration: "))
 n = int(input("Enter the no. of partitions: "))
 h = (b - a) / n
-func = input("Enter the intefrant function in x using python syntax : ")
+func = input("Enter the integrant function in x using python syntax : ")
 
 def f(x, func):
     return eval(func)
